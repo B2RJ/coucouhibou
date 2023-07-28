@@ -1,0 +1,36 @@
+{
+    "all": [
+        "chien",
+        "chat",
+        "lion",
+        "tigre"
+    ],
+    "boujour": [
+        "vautour"
+    ],
+    "salut": [
+        "tortue"
+    ],
+    "coucou": [
+        "hibou",
+        "coucou",
+        "caribou",
+        "carcajou"
+    ],
+    "bonsoir": [
+        "loire",
+        "jaguar"
+    ],
+    "salutation": [
+        "poisson",
+        "thon",
+        "bison",
+        "cochon"
+    ],
+    "hola": [
+        "chat",
+        "koala",
+        "alpaga",
+        "ara"
+    ]
+}
