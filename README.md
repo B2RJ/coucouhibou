@@ -1,5 +1,12 @@
 # Coucouhibou
 
+<!-- [START BADGES] -->
+<!-- Please keep comment here to allow auto update -->
+[![MIT License](https://img.shields.io/github/license/B2RJ/Monycount?style=flat-square)](https://github.com/B2RJ/Monycount/blob/master/LICENSE)
+[![build](https://img.shields.io/github/workflow/status/B2RJ/Monycount/Release/master?logo=github&style=flat-square)](https://github.com/B2RJ/Monycount/actions/workflows/cicd.yml)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)](https://github.com/B2RJ/Monycount/pulls)
+<!-- [END BADGES] -->
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
 ## Development server
