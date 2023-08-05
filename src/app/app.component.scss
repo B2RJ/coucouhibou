@@ -1,0 +1,60 @@
+/* mon-composant.component.scss */
+
+header {
+    /* Définir la disposition en colonne pour aligner les éléments verticalement */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    /* Espacement autour du contenu */
+    padding: 10px;
+  
+    /* Style de l'image */
+    img {
+      /* Définir la taille souhaitée pour l'image (par exemple, 100px) */
+      width: 100px;
+      height: auto; /* Pour conserver le rapport d'aspect de l'image */
+  
+      /* Si vous voulez ajouter un peu d'espace autour de l'image */
+      margin-bottom: 10px;
+    }
+  
+    /* Style du titre h1 */
+    h1 {
+      /* Définir les styles pour le titre, par exemple, la couleur et la taille */
+      font-size: 50px;
+      color: #333; /* Couleur du texte du titre */
+    }
+}
+
+footer {
+    /* Positionner le footer en bas de la page */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+    /* Définir une hauteur pour le footer */
+    height: 100px; /* Ajustez la hauteur selon vos besoins */
+  
+    /* Centrer le contenu du footer horizontalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Vous pouvez également ajouter d'autres styles pour votre footer */
+
+    color: #333; /* Couleur du texte du titre */
+
+    a {
+        color: #333; /* Couleur du lien non visité */
+      }
+    
+      /* Style pour le lien visité */
+      a:visited {
+        color: #333; /* Couleur du lien visité (rouge dans cet exemple) */
+      }
+  }
+
+  
+
