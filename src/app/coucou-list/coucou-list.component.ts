@@ -12,23 +12,30 @@ export class CoucouListComponent {
 
   constructor() { 
     this.showPeerHelloAnimal();
-
   }
 
 
+  /**
+   * Print a peer Hello/Animal
+   */
   showPeerHelloAnimal() { 
     const keys = Object.keys(coucouJson);
     const values = Object.values(coucouJson);
 
     const numberOfElements = Object.keys(coucouJson).length;
     if (numberOfElements > 0) {
-      const hello = Math.floor(Math.random() * numberOfElements);
+      let hello = Math.floor(Math.random() * numberOfElements);
+      const first_hello = hello
 
-      const animaux = values[hello];
+      while (Object.keys(coucouJson)[hello] === "all") {
+        hello = Math.floor(Math.random() * numberOfElements);
+      }
+
+      const animaux = values[first_hello];
 
       const animal = Math.floor(Math.random() * animaux.length);
 
-      this.helloAnimal = "Résultat " + Object.keys(coucouJson)[hello] + " " + animaux[animal] + ".";
+      this.helloAnimal = Object.keys(coucouJson)[hello] + " " + animaux[animal];
 
     }
   }

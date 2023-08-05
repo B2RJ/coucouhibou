@@ -1,0 +1,21 @@
+.hello-animal-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    border-radius: 50px;
+    font-size: 20px;
+    background: linear-gradient(145deg, #2695ce, #2db2f5);
+}
+
+.texte {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    font-size: 50px; /* Par exemple, une taille de police de 18 pixels */
+    line-height: 1.5; /* Hauteur de ligne pour l'espacement entre les lignes */
+}
