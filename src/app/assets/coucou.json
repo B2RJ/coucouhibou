@@ -1,36 +1,37 @@
 {
     "all": [
-        "chien",
-        "chat",
-        "lion",
-        "tigre"
+        "mon chien. 🐶",
+        "mon chat. 🐈",
+        "mon lion. 🦁",
+        "le tigre. 🐯"
     ],
-    "boujour": [
-        "vautour"
+    "Boujour": [
+        " mon vautour. 🐦"
     ],
-    "salut": [
-        "tortue"
+    "Salut": [
+        "ma tortue. 🐢"
     ],
-    "coucou": [
-        "hibou",
-        "coucou",
-        "caribou",
-        "carcajou"
+    "Coucou": [
+        "mon hibou. 🦉",
+        "mon coucou. 🐦",
+        "le caribou. 🫎",
+        "le carcajou. "
     ],
-    "bonsoir": [
-        "loire",
-        "jaguar"
+    "Bonsoir": [
+        "le loire. 💩",
+        "mon jaguar. 🚗"
     ],
-    "salutation": [
-        "poisson",
-        "thon",
-        "bison",
-        "cochon"
+    "Salutation": [
+        "mon poisson. 🐠",
+        "mon thon. 🐟",
+        "le bison. 🦬",
+        "le cochon. 🐖",
+        "le lion. 🦁" 
     ],
-    "hola": [
-        "chat",
-        "koala",
-        "alpaga",
-        "ara"
+    "Hola": [
+        "le chat. 🐈",
+        "le koala. 🐨",
+        "l'alpaga. 🦙",
+        "l'ara. 🦜"
     ]
 }
