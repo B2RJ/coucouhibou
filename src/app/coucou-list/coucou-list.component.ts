@@ -8,6 +8,7 @@ import coucouJson from '../assets/coucou.json';
   styleUrls: ['./coucou-list.component.scss']
 })
 export class CoucouListComponent {
+  helloAnimal: any;
 
   constructor() { 
     this.showPeerHelloAnimal();
@@ -36,6 +37,7 @@ export class CoucouListComponent {
       console.log("C'est l'animal ", animaux[animal])
 
       console.log('Résultat ', Object.keys(coucouJson)[hello], " ", animaux[animal],".");
+      this.helloAnimal = "Résultat " + Object.keys(coucouJson)[hello] + " " + animaux[animal] + ".";
 
     }
   }
